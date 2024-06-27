@@ -1,0 +1,10 @@
+nohup: ignoring input
+test_roberta.py:74: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  input_ids = torch.cuda.LongTensor([inst[0] for inst in batch])
+开始读取模型。。。
+开始读取训练好的模型参数。。。
+开始读取数据。。。
+开始测试。。。
+测试集结果： 真新闻准确率：79.54，假新闻准确率：20.83， 分类准确率: 58.35.
+Test AUC: 0.4851367856038328. 
+Test F1: 0.736992159657876. 
